@@ -8,11 +8,11 @@
 `python
 from app import db 
 db.create_all()
-from app import Employee
+from app import Employee`
 
-emp = Employee(firstname="John",lastname="Doe", gender="Male", salary=2500000)
+`emp = Employee(firstname="John",lastname="Doe", gender="Male", salary=2500000)
 db.session.add(emp)
-db.session.commit()
+db.session.commit()`
 
 ## How to Run The app
 1. `flask run` or
